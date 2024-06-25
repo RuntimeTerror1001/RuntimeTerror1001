@@ -45,3 +45,25 @@
 <br clear="both">
 
 ###
+###
+
+### Currently Working On
+
+#### Virtual Immersive System for Interactive Travel (VISIT)
+
+**VISIT** is an innovative project aimed at revolutionizing how we experience travel by creating a Virtual Immersive System for Interactive Travel. This platform enables users to explore global destinations through immersive virtual reality (VR) experiences, offering personalized travel recommendations and detailed information about each destination. The system leverages:
+
+- **Python & Django** for backend development
+- **Django REST framework** for creating APIs
+- **PostgreSQL** for database management
+- **Flutter** for the mobile app interface
+- **Cloud services** for deployment and scalability
+
+**Key Features:**
+- User authentication and profiles
+- Comprehensive destination database with VR content
+- AI-driven personalized recommendations
+- Interactive maps and social features
+- Integration with existing VR platforms
+
+Stay tuned for updates as we bring the world to your fingertips with VISIT!
