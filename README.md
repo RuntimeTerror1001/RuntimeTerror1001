@@ -47,23 +47,64 @@
 ###
 ###
 
-### Currently Working On
+## Currently Working On
 
-#### Virtual Immersive System for Interactive Travel (VISIT)
 
-**VISIT** is an innovative project aimed at revolutionizing how we experience travel by creating a Virtual Immersive System for Interactive Travel. This platform enables users to explore global destinations through immersive virtual reality (VR) experiences, offering personalized travel recommendations and detailed information about each destination. The system leverages:
+### VISIT - Virtual Immersive System for Interactive Travel
 
-- **Python & Django** for backend development
-- **Django REST framework** for creating APIs
-- **PostgreSQL** for database management
-- **Flutter** for the mobile app interface
-- **Cloud services** for deployment and scalability
+**Description:**
+VISIT is an innovative project aimed at revolutionizing how we experience travel by creating a Virtual Immersive System for Interactive Travel. This platform enables users to explore global destinations through immersive virtual reality (VR) experiences, offering personalized travel recommendations and detailed information about each destination.
+
+**Key Technologies:**
+- Python & Django for backend development
+- Django REST framework for creating APIs
+- PostgreSQL for database management
+- Flutter for the mobile app interface
+- Cloud services for deployment and scalability
 
 **Key Features:**
-- User authentication and profiles
-- Comprehensive destination database with VR content
-- AI-driven personalized recommendations
-- Interactive maps and social features
-- Integration with existing VR platforms
+- **User Authentication and Profiles:** Secure user authentication and personalized profiles.
+- **Comprehensive Destination Database:** Rich database with VR content for global destinations.
+- **AI-driven Personalized Recommendations:** Machine learning algorithms for recommending destinations based on user preferences.
+- **Interactive Maps and Social Features:** Interactive maps to explore destinations and social features for sharing experiences.
+- **Integration with Existing VR Platforms:** Seamless integration with popular VR platforms for immersive experiences.
 
-Stay tuned for updates as we bring the world to your fingertips with VISIT!
+**Current Status:**
+In active development, focusing on backend infrastructure setup and initial database population.
+
+**Future Goals:**
+- Enhance VR content with 360-degree videos and virtual tours.
+- Implement real-time travel updates and notifications.
+- Expand social features for community engagement.
+
+**Repository:**
+[Link to GitHub Repository](https://github.com/your-username/visit-project)
+
+###
+
+### SHADOW - Simulated Hybrid Autonomous Detection Watchdog
+
+**Description:**
+SHADOW is a simulated hybrid autonomous detection watchdog designed for robust surveillance and monitoring in indoor environments.
+
+**Key Technologies:**
+- ROS & Gazebo for robot programming and simulation
+- OpenCV and Tensorflow for AI features
+- Flutter for the mobile app interface
+
+**Key Features:**
+- **Autonomous Navigation:** Uses SLAM for mapping and navigation in simulated environments.
+- **Obstacle Avoidance:** Implements advanced algorithms for navigating around obstacles.
+- **Object Detection:** Integrates computer vision for identifying and tracking objects of interest.
+- **Monitoring and Alerting:** Monitors activities and sends alerts based on detected anomalies.
+- **Flutter Mobile App:** Allows remote monitoring and control of the robot via a cross-platform Flutter application.
+
+**Current Status:**
+In active development, focusing on setting up ROS and Gazebo for simulation.
+
+**Future Goals:**
+- Implement real-time video streaming for enhanced monitoring.
+- Expand functionality to include multi-robot coordination in simulated environments.
+
+**Repository:**
+[Link to GitHub Repository](https://github.com/your-username/shadow-project)
