@@ -53,7 +53,7 @@
 ### VISIT - Virtual Immersive System for Interactive Travel
 
 **Description:**
-VISIT is an innovative project aimed at revolutionizing how we experience travel by creating a Virtual Immersive System for Interactive Travel. This platform enables users to explore global destinations through immersive virtual reality (VR) experiences, offering personalized travel recommendations and detailed information about each destination.
+VISIT is an innovative project to revolutionise how we experience travel by creating a Virtual Immersive System for Interactive Travel. This platform enables users to explore global destinations through immersive virtual reality (VR) experiences, offering personalized travel recommendations and detailed information about each destination.
 
 **Key Technologies:**
 - Python & Django for backend development
@@ -78,7 +78,7 @@ In active development, focusing on backend infrastructure setup and initial data
 - Expand social features for community engagement.
 
 **Repository:**
-[Link to GitHub Repository](https://github.com/your-username/visit-project)
+https://github.com/RuntimeTerror1001/VISIT
 
 ###
 
