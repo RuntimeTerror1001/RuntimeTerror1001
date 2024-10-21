@@ -30,14 +30,21 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ros/ros-original-wordmark.svg" height="35" alt="css3 logo"  />
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  <!-- Gmail badge -->
+  <a href="mailto:parthraaj6973@gmail.com">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" />
+  </a>
+  
+  <!-- LinkedIn badge -->
+  <a href="https://www.linkedin.com/in/parth-desai-021027">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
+  </a>
 </div>
 
 ###
@@ -50,29 +57,34 @@
 ## Currently Working On
 
 
-### SHADOW - Simulated Hybrid Autonomous Detection Watchdog
+### HELIOS - Hazard Exploration and Lifesaving Intelligent Operations System
 
-**Description:**
-SHADOW is a simulated hybrid autonomous detection watchdog designed for robust surveillance and monitoring in indoor environments.
+**Overview:**
+HELIOS is an advanced, autonomous drone platform designed to revolutionize search and rescue (SAR) operations in hazardous environments. Equipped with cutting-edge robotics, machine learning, and sensor technologies, HELIOS is built to efficiently locate and assist survivors in environments where human intervention is challenging or dangerous. 
 
-**Key Technologies:**
-- ROS & Gazebo for robot programming and simulation
-- OpenCV and Tensorflow for AI features
-- Flutter for the mobile app interface
+**Core Technologies:**
+- **ROS2 & Gazebo**: For robot programming, control, and real-time simulation, allowing for extensive testing and deployment in both simulated and real environments.
+- **SLAM (Simultaneous Localization and Mapping)**: Enables HELIOS to autonomously map and navigate unknown environments in real-time, critical for GPS-denied areas such as caves, forests, or collapsed buildings.
+- **Reinforcement Learning**: Allows the drone to learn optimal navigation paths through trial and error, improving performance in complex and dynamic scenarios over time.
+- **Computer Vision**: Uses advanced vision algorithms for real-time object detection, victim identification, and terrain analysis to support search and rescue operations.
+- **RRT Algorithm**: Implements Rapidly-exploring Random Trees (RRT*) for efficient path planning, allowing HELIOS to calculate safe and optimal routes while avoiding obstacles.
+- **Multi-Sensor Fusion**: Integrates data from cameras, LiDAR, infrared sensors, and microphones to detect survivors through debris, in low-visibility conditions, or in difficult terrains.
+- **Reinforcement Learning for Adaptive Navigation**: Utilizes reinforcement learning to dynamically adapt flight paths and decision-making based on mission objectives and environmental factors.
 
 **Key Features:**
-- **Autonomous Navigation:** Uses SLAM for mapping and navigation in simulated environments.
-- **Obstacle Avoidance:** Implements advanced algorithms for navigating around obstacles.
-- **Object Detection:** Integrates computer vision for identifying and tracking objects of interest.
-- **Monitoring and Alerting:** Monitors activities and sends alerts based on detected anomalies.
-- **Flutter Mobile App:** Allows remote monitoring and control of the robot via a cross-platform Flutter application.
+- **Autonomous Navigation**: Combines SLAM and RRT* algorithms to autonomously explore, map, and navigate through cluttered, complex environments while avoiding obstacles.
+- **Adaptive Search Strategy**: Uses reinforcement learning to optimize search patterns, prioritizing high-probability areas for finding survivors based on terrain and previous missions.
+- **Multi-Agent Collaboration**: Future enhancements will enable multiple HELIOS drones to work together in coordinated rescue efforts, sharing maps and data to cover large areas more efficiently.
+- **Object Detection and Victim Identification**: Integrates computer vision with infrared and LiDAR sensors to detect human presence, hazardous objects, or potential survivors even in low-visibility conditions.
 
 **Current Status:**
-In active development, focusing on setting up ROS and Gazebo for simulation.
+In active development, currently focused on setting up and refining ROS2 and Gazebo-based simulation environments. Work is underway to implement SLAM-based autonomous navigation, obstacle avoidance, and reinforcement learning for adaptive path planning.
 
 **Future Goals:**
-- Implement real-time video streaming for enhanced monitoring.
-- Expand functionality to include multi-robot coordination in simulated environments.
+- **Real-Time Video Streaming with AI Analysis**: Implementing advanced video streaming for improved rescue team monitoring, with AI to assist in real-time footage analysis for hidden patterns or survivors.
+- **Multi-Drone Swarm Capabilities**: Expanding the system to support coordination among multiple HELIOS drones, allowing for synchronized SAR operations in larger areas.
+- **Emergency Supply Delivery**: Design to carry and deploy critical supplies, such as medical kits, food, and communication devices, to survivors in remote or hard-to-reach areas.
+- **Energy-Efficient Power Management**: Utilize intelligent power management systems to maximize flight duration by optimizing battery usage based on mission requirements and environmental conditions.
 
 **Repository:**
-[Link to GitHub Repository](https://github.com/your-username/shadow-project)
+Coming Soon!
